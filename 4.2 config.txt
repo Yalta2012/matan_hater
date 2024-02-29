@@ -1,0 +1,17 @@
+https://moodle.surgu.ru/mod/lesson/view.php?id=289502
+https://moodle.surgu.ru/mod/lesson/view.php?id=289502&pageid=49200
+checkbox 2
+id_answer_119877
+id_answer_119878
+menu 5
+id_response_119886 Неверно
+id_response_119887 Неверно
+id_response_119888 Верно
+id_response_119889 Неверно
+id_response_119890 Верно
+menu 5
+id_response_119893 Неверно
+id_response_119894 Неверно
+id_response_119895 Верно
+id_response_119896 Верно
+id_response_119897 Верно
