@@ -1,0 +1,17 @@
+https://moodle.surgu.ru/mod/lesson/view.php?id=289494
+https://moodle.surgu.ru/mod/lesson/view.php?id=289494&pageid=49195
+checkbox 3
+id_answer_119864
+id_answer_119865
+id_answer_119866
+menu 5
+id_response_119871 Неверно
+id_response_119872 Неверно
+id_response_119873 Верно
+id_response_119874 Верно
+id_response_119875 Верно
+menu 4
+id_response_119932 Не является знакочередующимся
+id_response_119933 Не является знакочередующимся
+id_response_119934 Является знакочередующимся
+id_response_119935 Не является знакочередующимся
