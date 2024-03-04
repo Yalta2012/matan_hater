@@ -1,0 +1,18 @@
+https://moodle.surgu.ru/mod/lesson/view.php?id=289604
+https://moodle.surgu.ru/mod/lesson/view.php?id=289604&pageid=49273
+input 1
+menu 6
+id_response_120081 Нет
+id_response_120082 Да
+id_response_120083 Да
+id_response_120084 Да
+id_response_120085 Да
+id_response_120086 Нет
+checkbox 3
+id_answer_120087
+id_answer_120088
+id_answer_120091
+checkbox 2
+id_answer_120093
+id_answer_120096
+input 0
