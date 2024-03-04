@@ -1,3 +1,3 @@
 # matan_hater
-ver 0.1
-last changes: 02.03.24
+ver 0.2
+last changes: 04.03.24
