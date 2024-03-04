@@ -1,11 +1,13 @@
 # -*- coding: windows-1251 -*-
 import time
+import os
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.edge.service import Service
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+from progress.bar import IncrementalBar
 
 options = webdriver.EdgeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
@@ -30,6 +32,7 @@ def aut(login, password):
     #print("AUT: SUCCSESS")
 
 def cont():
+    time.sleep(1)
     driver.find_element(By.XPATH,"//button[text()='Продолжить']").click()
 
 def ans(path):
@@ -39,11 +42,9 @@ def ans(path):
     while True:
         line = f.readline().rstrip('\n')
         if not line:
-            #print("BREAK")
             break
         
         a=line.split()
-        
         if a[0]=='checkbox':
             for i in range(int(a[1])):
                 driver.find_element(By.ID,f.readline().rstrip('\n')).click()
@@ -53,19 +54,25 @@ def ans(path):
         elif a[0]=='menu':
             for i in range(int(a[1])):
                 b=f.readline().split()
-                Select(driver.find_element(By.ID, b[0])).select_by_value(b[1])
+                Select(driver.find_element(By.ID, b[0])).select_by_value(' '.join(b[1:]))
             driver.find_element(By.ID,'id_submitbutton').click()          
     driver.get(start)
-    
 
-try:
-    t=time.time()
-    f=open("login.txt")
-    login=f.readline()
-    password=f.readline()
-    aut(login,password)
-    for i in range(25):
-        ans("4.2 config.txt")
-    print(time.time()-t)
-except:
-    print("ERROR!")
+def main(path, times):
+    bar = IncrementalBar('Progress', max = times)
+    try:
+        t=time.time()
+        f=open("login.txt",encoding="utf-8")
+        login=f.readline()
+        password=f.readline()
+        aut(login,password)
+        for i in range(times):
+            ans(path)
+            bar.next()
+        bar.finish()
+        print(i+1,' iterations complited in ', time.time()-t, 'seconds')
+    except Exception as e:
+        print("\nERROR")
+        print(e)
+
+main("4.4 config.txt", 10)
