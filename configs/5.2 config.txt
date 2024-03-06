@@ -1,0 +1,6 @@
+https://moodle.surgu.ru/mod/lesson/view.php?id=301422
+https://moodle.surgu.ru/mod/lesson/view.php?id=301422&pageid=58112
+radio id_answerid_140213
+radio id_answerid_140220
+radio id_answerid_140223
+radio id_answerid_140231
