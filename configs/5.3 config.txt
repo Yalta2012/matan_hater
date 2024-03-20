@@ -1,0 +1,15 @@
+https://moodle.surgu.ru/mod/lesson/view.php?id=254336
+https://moodle.surgu.ru/mod/lesson/view.php?id=254336&pageid=36190
+menu 4
+id_response_88126 Задача на поиск условного экстремума
+id_response_88127 Задача на поиск безусловного экстремума
+id_response_88128 Задача на поиск условного экстремума
+id_response_88129 Задача на поиск безусловного экстремума
+menu 3
+id_response_88132 Верно
+id_response_88133 Неверно
+id_response_88134 Верно
+menu 3
+id_response_88142 Верно 
+id_response_88143 Верно
+id_response_88144 Неверно

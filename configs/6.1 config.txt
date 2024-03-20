@@ -1,0 +1,14 @@
+https://moodle.surgu.ru/mod/lesson/view.php?id=306088
+https://moodle.surgu.ru/mod/lesson/view.php?id=306088&pageid=60534
+input 2,25
+menu 5
+id_response_146066 Верно
+id_response_146067 Неверно
+id_response_146068 Верно
+id_response_146069 Неверно
+id_response_146070 Неверно
+menu 4
+id_response_146073 Верно
+id_response_146074 Неверно
+id_response_146075 Верно
+id_response_146076 Верно
