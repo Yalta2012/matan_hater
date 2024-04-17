@@ -60,9 +60,15 @@ def ans(path):
                 b=f.readline().split()
                 Select(driver.find_element(By.ID, b[0])).select_by_value(' '.join(b[1:]))
             driver.find_element(By.ID,'id_submitbutton').click()
+            
         elif a[0]=='input':
-            driver.find_element(By.ID,'id_answer').send_keys(a[1])
+            driver.find_element(By.ID,'id_answer').send_keys(' '.join(a[1:]))
             driver.find_element(By.ID,'id_submitbutton').click()
+            
+        elif a[0]=='radio':
+            driver.find_element(By.ID,a[1]).click()
+            driver.find_element(By.ID,'id_submitbutton').click()
+
     driver.get(start)
 
 def main(path, times):
@@ -83,4 +89,4 @@ def main(path, times):
         print("\nERROR\n")
         print(e)
 
-main("4.5 config.txt", 196)
+main("./configs/6.5 config.txt",1)
