@@ -1,0 +1,18 @@
+https://moodle.surgu.ru/mod/lesson/view.php?id=257881
+https://moodle.surgu.ru/mod/lesson/view.php?id=257881&pageid=36781
+menu 4
+id_response_89408 Верно
+id_response_89409 Верно
+id_response_89410 Неверно
+id_response_89411 Верно
+menu 4
+id_response_89414 Неверно
+id_response_89415 Верно
+id_response_89416 Неверно
+id_response_89417 Верно
+menu 5
+id_response_89420 и 1-го и 2-го рода
+id_response_89421 1-го рода
+id_response_89422 и 1-го и 2-го рода
+id_response_89423 и 1-го и 2-го рода
+id_response_89424 2-го роды
